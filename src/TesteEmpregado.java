@@ -3,15 +3,19 @@ import com.fornazeiro.Empregado;
 public class TesteEmpregado {
     public static void main(String[] args) {
 
-        String nome = "Felipe";
-        String apelido = nome; //sempre sera felipe
-        nome = "mario";
+        /*
+        String name = "Felipe";
+        String apelido = name; sempre sera Felipe
+        name = "Mario";
         System.out.println(apelido);
+         */
 
-        Empregado emp1 = new Empregado();
-        emp1.setNome("Felipe");
-        emp1.setTipo(2);
-        emp1.setSalario(2000);
-        emp1.setComissao(0.1);
+        Empregado e1 = new Empregado("João", 30, 1, 3000.0, 0.0, 0.0);
+        Empregado e2 = new Empregado("Maria", 28, 2, 2500.0, 0.1, 0.0);
+        Empregado e3 = new Empregado("Carlos", 35, 3, 4000.0, 0.0, 500.0);
+
+        System.out.println(e1);
+        System.out.println(e2);
+        System.out.println(e3);
     }
 }
