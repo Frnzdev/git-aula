@@ -9,15 +9,15 @@ public class Empregado {
     private double comissao;
     private double bonus;
 
-
-    public Empregado(String nome, int idade, int tipo, double salario, double comissao, double bonus) {
-        this.nome = nome;
-        this.idade = idade;
-        this.tipo = tipo;
-        this.salario = salario;
-        this.comissao = comissao;
-        this.bonus = bonus;
-    }
+    //assinatura trabalha com o tipo do dado e nao com o nome. Nao posso criar mais de um construtor com o mesmo tipo de assinatura.
+//    public Empregado(String nome, int idade, int tipo, double salario, double comissao, double bonus) {
+//        this.nome = nome;
+//        this.idade = idade;
+//        this.tipo = tipo;
+//        this.salario = salario;
+//        this.comissao = comissao;
+//        this.bonus = bonus;
+//    }
 
     public double calcularSalario(){
         if (tipo == 1){
