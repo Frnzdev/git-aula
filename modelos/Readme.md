@@ -3,3 +3,5 @@
 Entidadades:
    - Pessoa
    - Disciplina
+**Objetos de valor**
+   - Endereço
